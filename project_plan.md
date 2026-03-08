@@ -44,4 +44,4 @@ possibly also done data cleaning so it’s ready for analysis
 - 21 April: analysis complete (single vs multiple stars compared)
 - 3 May: project finished (writeup complete and submitted)
 ## Gaps
-Cannot Find Documentation on what datatables exist within 
+Cannot Find Documentation on what datatables exist within sdss dr18
