@@ -34,5 +34,14 @@ Our second dataset will utilize data from the Sloan Digital Sky Survey Data Rele
 We will be combining these datasets to compare star features and cross-reference information (for instance, if certain data for a star is not available in Gaia, it might be available in SDSS). 
 
 ## Timeline
-
+8 March: get some data from each dataset and look at it
+10 March: submit project plan (duh)
+31 March: status report
+by this date we will hopefully have gathered our data and collected its metadata, copyright / usage info, etc
+possibly also done data cleaning so it’s ready for analysis
+7 April: pulled any additional star data if necessary; inspected and cleaned
+14 April: datasets integrated into one
+21 April: analysis complete (single vs multiple stars compared)
+3 May: project finished (writeup complete and submitted)
 ## Gaps
+Cannot Find Documentation on what datatables exist within 
