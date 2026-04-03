@@ -30,16 +30,17 @@ Our first dataset will utilize data from the Gaia mission's Data Release 3. The 
 
 Our second dataset will utilize data from the Sloan Digital Sky Survey Data Release 18. SDSS (https://en.wikipedia.org/wiki/Sloan_Digital_Sky_Survey , https://www.sdss.org/dr18/mwm/about/) focuses on spectroscopic data from about 5 million objects, largely at low galactic latitudes.
 
-We will be combining these datasets to compare star features and cross-reference information (for instance, if certain data for a star is not available in Gaia, it might be available in SDSS). 
+We will be combining these datasets to compare star features and cross-reference information (for instance, if certain data for a star is not available in Gaia, it might be available in SDSS). Our integration variable will be specific sources (individual stars) that are available in both datasets. Previous work has integrated Gaia and SDSS data (for example: https://iopscience.iop.org/article/10.3847/1538-4365/ab8d27), so we may reference existing methods for cross-matching.
+
+We will limit our dataset to 50,000 observations, ideally 25,000 single stars and 25,000 stars in multiple-star systems.
 
 ## Timeline
 - 8 March: get some data from each dataset and look at it (informally)
 - 10 March: submit project plan 
-- 31 March: status report; by this date we will hopefully have gathered our data and collected its metadata, copyright / usage info, etc. possibly also done data cleaning so it’s ready for analysis
-- 5 April: roughly half of the required modules finished (first three from each teammate's list of modules to work on)
-- 7 April: pulled any additional star data if necessary; inspected and cleaned
-- 14 April: datasets integrated into one
-- 21 April: analysis complete (single vs multiple stars compared)
+- 7 April: status report; by this date we will hopefully have gathered our data and collected its metadata, copyright / usage info, etc. possibly also done data cleaning so it’s ready for analysis
+- 14 April: roughly half of the required modules finished (first three from each teammate's list of modules to work on); pulled any additional star data if necessary, inspected and cleaned
+- 21 April: datasets integrated into one
+- 28 April: analysis complete (single vs multiple stars compared)
 - 3 May: project finished (writeup complete and submitted)
 
 ## Constraints
