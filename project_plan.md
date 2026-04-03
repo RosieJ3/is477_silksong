@@ -30,7 +30,7 @@ Our first dataset will utilize data from the Gaia mission's Data Release 3. The 
 
 Our second dataset will utilize data from the Sloan Digital Sky Survey Data Release 18. SDSS (https://en.wikipedia.org/wiki/Sloan_Digital_Sky_Survey , https://www.sdss.org/dr18/mwm/about/) focuses on spectroscopic data from about 5 million objects, largely at low galactic latitudes.
 
-We will be combining these datasets to compare star features and cross-reference information (for instance, if certain data for a star is not available in Gaia, it might be available in SDSS). Our integration variable will be specific sources (individual stars) that are available in both datasets. Previous work has integrated Gaia and SDSS data (for example: https://iopscience.iop.org/article/10.3847/1538-4365/ab8d27), so we may reference existing methods for cross-matching.
+We will be combining these datasets to compare star features and cross-reference information (for instance, if certain data for a star is not available in Gaia, it might be available in SDSS). Our integration variable will be specific sources (individual stars) that are available in both datasets. Previous work has integrated Gaia and SDSS data (for example: https://iopscience.iop.org/article/10.3847/1538-4365/ab8d27 ,  	https://doi.org/10.1051/0004-6361/201834142), so we may reference existing methods for cross-matching.
 
 We will limit our dataset to 50,000 observations, ideally 25,000 single stars and 25,000 stars in multiple-star systems.
 
