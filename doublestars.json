@@ -1,4 +1,4 @@
-"doi:" "
+"doi:" ",
 "creators": [
   {
     "name": "Fetyko, Erika",
@@ -7,9 +7,27 @@
     "familyName": "Fetyko"
   },
   {
-    "name": "Jeon, Rosie"
+    "name": "Jeon, Rosie",
     "nameType": "Personal",
     "givenName": "Rosie",
     "familyName": "Jeon"
   }
-]
+],
+"titles": [
+  {
+    "lang":"en",
+    "title": "Exploration of Binary and Singlar Star Overlap in the Gaia dr3 and SDSS dr18 datasets" 
+  },
+
+"publisher": {
+  "name":
+  "publisherIdentifier":
+  "publisherIdentifierScheme":"DOI",
+  "schemeUri": "https://DOI.org/",
+  "lang": "en"
+}
+  "publicationYear": "2026",
+"types": {
+    "resourceType": "Astronomical Data",
+    "resourceTypeGeneral": "Dataset"
+}
