@@ -29,7 +29,7 @@
 |center_of_mass_velocity| velocity of the system through space|
 |temperature_ratio | ration between the two objects in the system|
 
-##  sdss_single.csv
+##  sdss_single.csv & sdss_binary_match.csv
 
 | Column name | Desc|
 | --------| ----|
@@ -45,4 +45,5 @@
 |dered_r| redshift adjusted r band magnitude|
 |dered_i| redshift adjusted i band magnitude|
 |dered_z| redshift adjusted z band magnitude|
+
 
