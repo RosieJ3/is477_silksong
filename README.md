@@ -81,11 +81,12 @@ First, we query for multiple-star data.
 
 Navigate to https://gea.esac.esa.int/archive/ and create an account if desired (allows for saved query history and for query results to be saved as user tables). Click the “Search” tab, then the “Advanced (ADQL)” tab. Enter the following query:
 ```
-SELECT TOP 25000 * FROM gaiadr3.nss_two_body_orbit
+SELECT TOP 100000 * FROM gaiadr3.nss_two_body_orbit
+WHERE ra BETWEEN 0 AND 180 AND dec BETWEEN 0 AND 40
 ```
-This query simply selects some observations from the nss_two_body_orbit table. This table contains “non-single-star orbital models for sources compatible with an orbital two-body solution”, per the Gaia archive. 
+This query selects some observations from the nss_two_body_orbit table. This table contains “non-single-star orbital models for sources compatible with an orbital two-body solution”, per the Gaia archive. We restrict the right ascension and declination because of SDSS observing limitations (see References for a link to SDSS sky coverage information).
 
-Download the output as a VOTable named “gaia_double_stars.vot”. Run `gaia_nonull.py` to clean null rows and select our chosen important columns. The output should be a CSV named “gaia2.csv”. 
+Download the output as a VOTable named “gaia_again.vot”. Run `gaia_nonull.py` to select our chosen important columns and convert to CSV. Note that this script requires the Astropy package. The output should be a CSV named “gaia2.csv”. 
 
 Navigate to https://skyserver.sdss.org/CasJobs/SubmitJob.aspx and create an account. Click the “MyDB” tab and upload gaia2.csv as a user table titled gaia2. Click the “Query” tab and ensure DR18 is selected in the “Context” dropdown. Enter the following query:
 ```
