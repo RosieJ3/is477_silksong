@@ -85,7 +85,7 @@ SELECT TOP 25000 * FROM gaiadr3.nss_two_body_orbit
 ```
 This query simply selects some observations from the nss_two_body_orbit table. This table contains “non-single-star orbital models for sources compatible with an orbital two-body solution”, per the Gaia archive. 
 
-Download the output as a VOTable named “gaia_double_stars.vot”. Run `[MAKE GAIA NONULL SCRIPT ITS REALLY SHORT].py` to clean null rows and select our chosen important columns. The output should be a CSV named “gaia2.csv”. 
+Download the output as a VOTable named “gaia_double_stars.vot”. Run `gaia_nonull.py` to clean null rows and select our chosen important columns. The output should be a CSV named “gaia2.csv”. 
 
 Navigate to https://skyserver.sdss.org/CasJobs/SubmitJob.aspx and create an account. Click the “MyDB” tab and upload gaia2.csv as a user table titled gaia2. Click the “Query” tab and ensure DR18 is selected in the “Context” dropdown. Enter the following query:
 ```
@@ -115,7 +115,7 @@ JOIN user_[username here].[table title here] u ON s.ra BETWEEN u.ra - 0.089 AND 
 ```
 Save the result as “gaia_single_match.csv”.
 
-Run `[MAKE CLEAN INTEGRATION SCRIPT].py` to find the closest matches for each class of star system (single or multiple).
+Run `integration.py` to find the closest matches for each class of star system (single or multiple).
 
 Analysis / visualizations are available in `project_code.ipynb`.
 
