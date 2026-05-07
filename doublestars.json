@@ -1,4 +1,4 @@
-"doi:" ",
+"doi:" "https://github.com/RosieJ3/is477_silksong/tree/main"
 "creators": [
   {
     "name": "Fetyko, Erika",
@@ -20,13 +20,11 @@
   },
 
 "publisher": {
-  "name":
-  "publisherIdentifier":
-  "publisherIdentifierScheme":"DOI",
-  "schemeUri": "https://DOI.org/",
+  "name":"Github"
+  "schemeUri": "https://github.org/",
   "lang": "en"
-}
-  "publicationYear": "2026",
+},
+"publicationYear": "2026",
 "types": {
     "resourceType": "Astronomical Data",
     "resourceTypeGeneral": "Dataset"
